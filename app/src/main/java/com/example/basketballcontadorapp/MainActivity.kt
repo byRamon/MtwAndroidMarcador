@@ -13,28 +13,22 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     public fun A3p(view:View){
-        val lbl : TextView = lblMarcadorA
-        lbl.text = (3 + lbl.text.toString().toInt()).toString()
+        lblMarcadorA.text = (3 + lblMarcadorA.text.toString().toInt()).toString()
     }
     public fun B3p(view:View){
-        val lbl : TextView = lblMarcadorB
-        lbl.text = (3 + lbl.text.toString().toInt()).toString()
+        lblMarcadorB.text = (3 + lblMarcadorB.text.toString().toInt()).toString()
     }
     public fun A2p(view:View){
-        val lbl : TextView = lblMarcadorA
-        lbl.text = (2 + lbl.text.toString().toInt()).toString()
+        lblMarcadorA.text = (2 + lblMarcadorA.text.toString().toInt()).toString()
     }
     public fun B2p(view:View){
-        val lbl : TextView = lblMarcadorB
-        lbl.text = (2 + lbl.text.toString().toInt()).toString()
+        lblMarcadorB.text = (2 + lblMarcadorB.text.toString().toInt()).toString()
     }
     public fun A1p(view:View){
-        val lbl : TextView = lblMarcadorA
-        lbl.text = (1 + lbl.text.toString().toInt()).toString()
+        lblMarcadorA.text = (1 + lblMarcadorA.text.toString().toInt()).toString()
     }
     public fun B1p(view:View){
-        val lbl : TextView = lblMarcadorB
-        lbl.text = (1 + lbl.text.toString().toInt()).toString()
+        lblMarcadorB.text = (1 + lblMarcadorB.text.toString().toInt()).toString()
     }
     public fun clear(view:View){
         val lblA : TextView = lblMarcadorA
