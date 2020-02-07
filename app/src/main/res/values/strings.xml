@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Marcador</string>
+    <string name="EquipoA">Equipo A</string>
+    <string name="EquipoB">Equipo B</string>
+    <string name="tresPuntos">+3 PUNTOS</string>
+    <string name="dosPuntos">+2 PUNTOS</string>
+    <string name="tiroLibre">TIRO LIBRE</string>
+    <string name="limpiar">LIMPIAR</string>
+    <string name="equipoB">Equipo B</string>
+</resources>
